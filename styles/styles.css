@@ -96,7 +96,7 @@ nav li a{
     flex-direction: row-reverse;
  
   }
-  .heading{
+  .heading {
     color: rgba(13, 19, 33, 0.7);
     font-size: 24px;
     font-weight: 700;
@@ -125,6 +125,40 @@ nav li a{
     opacity: 0.7;
      
 }
+/* MY-INSPIRATION */
+.Jhankar-vai-s-video{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+
+}
+.vdo-head{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 800;
+    padding: 24px;
+
+}
+.vdo-des{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 48px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+.vdo-link{
+    display: flex;
+    justify-content: center;
+  
+    
+}
+
 
 
 
