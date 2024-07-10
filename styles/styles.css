@@ -76,92 +76,56 @@ nav li a{
     padding: 45px 53px;
     
 }
-/* SECTION-1 */
+
 .full-body{
     max-width: 1140px;
     margin: 0 auto;
     border-radius: 16px;
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
-    
+ 
 
 }
-.Section-one{
-    margin-top: 70px;
-    
-}
-.Sec-one-title-and-des{
-    padding: 40px;
-    justify-content: center;
-    text-align: center;
-}
-.Heading{
-    color: rgb(13, 19, 33);
-    font-size: 32px;
-    font-weight: 800;
-    
-}
-.Description{
+.full-body{
+    margin-top: 25px;
+    display: flex;
+    gap: 80px;
+    justify-content: space-around;
+    padding: 48px 48px 48px 48px;
+  }
+ .reverse{
+    flex-direction: row-reverse;
+ 
+  }
+  .heading{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  
+  .prg{
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 400;
-    text-align: center;
-    margin: 20px 48px;
     opacity: 0.7;
+    margin-bottom: 15px;
+    
+  }
+  btn2{
+    border: 1px solid rgb(13, 19, 33);
+    
 
-}
-sec-h{
-    padding: 20px 20px;
-    color: rgba(13, 19, 33, 0.7);
-    font-size: 24px;
-    font-weight: 700;
     
-}
-.sec-p{
-    color: rgba(13, 19, 33, 0.7);
-    font-size: 24px;
-    font-weight: 700;
-
-    opacity: 0.7;
-    
-}
-.sec-container{
-    padding: 48px;
-    display: flex;
-    align-items:center;
-    justify-content:space-between;
-    border-radius: 16px;
-    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
-    
-}
-.layer-one{
-    float: right;
-    
-}
-.sec-container{
-    display: block;
-}
-.sec-p{
-    margin-top: 20px;
-    padding-bottom: 48px;
-}
-.learn-btn{
-    
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 20px 12px 20px;
+  }
+  .btn-line2{
     color: rgb(13, 19, 33);
-    
     font-size: 20px;
     font-weight: 600;
     text-decoration: none;
-    
-}
-.learnbtn{box-sizing: border-box;
-    border: 1px solid 1px	Inside
-    rgb(13, 19, 33);
     opacity: 0.7;
-    
-
+     
 }
+
+
+
+ 
